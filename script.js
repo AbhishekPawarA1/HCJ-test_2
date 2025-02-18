@@ -20,7 +20,7 @@ button.addEventListener("click",function handleadd(){
      container.innerHTML+=`
         <div class="child">
             <p style="text-align: center">-: Note :-</p>
-            <h2>Title:${title.value}</h2>
+            <h2>Title: ${title.value}</h2>
             <h2>Content: ${content.value}</h2>
             <h2>Category: ${select.value}</h2>
         </div>
